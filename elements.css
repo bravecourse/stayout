@@ -1,0 +1,151 @@
+ .header {
+ background-image: url("img/keyelement.png");
+ background-repeat: no-repeat;
+ height: 250px;
+ letter-spacing: 5px;
+ background-position: center;
+}
+p{
+ line-height: 1.6;
+}
+
+h1{ 
+text-align: center;
+font-family: fantasy;
+font: copperplate;
+position: relative;
+top: 100px;
+font-size: 70px;
+color: skyblue;
+ }
+
+ #rec{
+  height: 250px;
+  
+ }
+ #reccontent {
+  display: inline-flex;
+ }
+ #rectxt {
+  font-size: 20px;
+  font-family: Bell MT;
+ }
+
+ #career{
+  height: 275px;
+  text-align: right;
+  background-image: url('img/backg.png');
+  background-color: 
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 5px;
+ }
+ #careercontent {
+  display: inline-flex;
+ }
+ #careertxt {
+  font-size: 20px;
+  position: relative;
+  left: 375px;
+  font-family: Bell MT;
+ }
+ #sub{
+  height: 250px;
+  
+ }
+ #subcontent {
+  display: inline-flex;
+ }
+ #subtxt {
+  font-size: 20px;
+  font-family: Bell MT;
+ }
+ #fin{
+  height: 275px;
+  text-align: right;
+  background-image: url('img/backg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 5px;
+
+ }
+ #fincontent {
+  display: inline-flex;
+ }
+ #fintxt {
+  font-size: 20px;
+  position: relative;
+  left: 250px;
+  font-family: Bell MT;
+ }
+ #mental{
+  height: 250px;
+ text-align: left;
+ }
+ #mentalcontent {
+  display: inline-flex;
+ }
+ #mentaltxt {
+  font-size: 20px;
+  font-family: Bell MT;
+  position: relative;
+ }
+ #out{
+  height: 275px;
+  text-align: right;
+  background-image: url('img/backg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 5px;
+
+ }
+ #outcontent {
+  display: inline-flex;
+ }
+
+ #outtxt {
+  font-size: 20px;
+  font-family: Bell MT;
+  position: relative;
+  left: 275px;
+ }
+ #vocational {
+  height: 275px;
+  text-align: left;
+ }
+ #voccontent {
+  display: inline-flex;
+ }
+ #voctxt {
+  font-size: 20px;
+  font-family: Bell MT;
+  position: relative;
+ }
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #red;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: red;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: underline;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover: {
+  background-color: #38bbff;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #38bbff;
+  color: red;
+  border-radius: 50%;
+}
