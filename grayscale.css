@@ -53,7 +53,7 @@
   #mainNav .nav-link {
     -webkit-transition: none;
     transition: none;
-    padding: 2rem 1.5rem;
+    padding: 0rem 1.5rem 1rem 1.5rem;
     color: rgba(0,0,0,0.5);
   }
   #mainNav .nav-link:hover {
@@ -94,7 +94,7 @@
   padding: 15rem 0;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.3)), color-stop(75%, rgba(22, 22, 22, 0.7)), to(#161616)), url("img/stayoutpic.png");
   background: url("img/stayoutpic.png");
-  background-position: center;
+  background-position: left;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
@@ -492,4 +492,9 @@ input[type=submit]:hover {
   padding: 20px;
   color: white;
   text-align: left;
+}
+
+.container2 {
+  margin-left: 200px;
+  margin-right: 200px;
 }
